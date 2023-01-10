@@ -1,0 +1,34 @@
+:root {
+  --textColor: #b1bdb4;
+  --blackPrimary: #121417;
+  --borderColor: #4c4c4c;
+  --breakPointMedium: 1224px;
+  --breakPointSmal: 520px;
+}
+
+.sidebar {
+  background: var(--blackPrimary);
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 90vh;
+  padding: 0.5rem;
+}
+.sidebar li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  margin: 0.2rem 0;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.sidebar span {
+  margin-left: 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+.sidebar li:hover {
+  background-color: #272727;
+}
