@@ -37,12 +37,12 @@ const Sidebar = () => {
         <MdSentimentDissatisfied size={23} />
         <span>I Don't Know</span>
       </li>
-      <hr />
+      <hr className="hr_tag" />
       <li>
         <MdExitToApp size={23} />
         <span>LogOut</span>
       </li>
-      <hr />
+      <hr className="hr_tag" />
     </nav>
   );
 };

@@ -32,3 +32,22 @@
 .sidebar li:hover {
   background-color: #272727;
 }
+.hr_tag {
+  color: var(--borderColor);
+}
+@media (max-width: 1224px) {
+  .sidebar {
+    width: 90px;
+  }
+  li {
+    justify-content: center;
+  }
+  span {
+    display: none;
+  }
+}
+@media (max-width: 524px) {
+  .sidebar {
+    display: none;
+  }
+}
