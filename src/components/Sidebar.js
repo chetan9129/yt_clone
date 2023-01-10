@@ -10,9 +10,12 @@ import {
 } from "react-icons/md";
 import "../css/sidebar.css";
 
-const Sidebar = () => {
+const Sidebar = ({ sidebar }) => {
   return (
-    <nav className="border border-info sidebar">
+    <nav
+      className={sidebar ? "open" : "sidebar"}
+      // onClick={() => handleToggleSidebar(false)}
+    >
       <li>
         <MdHome size={23} />
         <span>Home</span>

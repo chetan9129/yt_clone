@@ -5,10 +5,14 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { MdNotifications, MdApps } from "react-icons/md";
 import { RxAvatar } from "react-icons/rx";
 
-const Header = () => {
+const Header = ({ handleToggleSidebar }) => {
   return (
     <div className="border border-dark header">
-      <FaBars className="header__menu" size={24} />
+      <FaBars
+        className="header__menu"
+        size={24}
+        onClick={() => handleToggleSidebar()}
+      />
       <img
         src="./yt_logo.png"
         alt=""
