@@ -1,0 +1,37 @@
+:root {
+  --textColor: #b1bdb4;
+  --blackPrimary: #121417;
+  --borderColor: #4c4c4c;
+  --breakPointMedium: 1224px;
+  --breakPointSmal: 520px;
+}
+
+.CategoriesBar {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  overflow-x: scroll;
+}
+.CategoriesBar::-webkit-scrollbar {
+  width: 0;
+}
+.CategoriesBar span {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  white-space: nowrap;
+  cursor: pointer;
+  color: white;
+  /* border: 1px solid var(--textColor); */
+  border-radius: 6px;
+  background-color: #272727a8;
+}
+/* .CategoriesBar span:hover {
+  background-color: #3c3e3f;
+} */
+.CategoriesBar .active {
+  background-color: #fff;
+  color: black;
+  /* border: var(--borderColor); */
+}

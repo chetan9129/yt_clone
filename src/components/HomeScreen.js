@@ -3,13 +3,17 @@ import { Col, Container, Row } from "react-bootstrap";
 import CategoriesBar from "./CategoriesBar";
 import Video from "./Video";
 
+// const keys = Array.from({ length: 20 }, (_, i) => i);
+// or
+const keys = [...Array(20).keys()];
+
 const HomeScreen = () => {
   return (
     <Container>
       <CategoriesBar />
       <Row>
-        {[...new Array(20)].map(() => (
-          <Col lg={3} md={4}>
+        {keys.map((key) => (
+          <Col lg={3} md={4} key={key}>
             <Video />
           </Col>
         ))}

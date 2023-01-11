@@ -10,8 +10,8 @@
   background: var(--blackPrimary);
   display: flex;
   flex-direction: column;
-  width: 250px;
-  height: 90vh;
+  width: 260px;
+  height: 89vh;
   padding: 0.5rem;
   /* transform: translateX(0%); */
   transition: transform 0.4s linear;
@@ -24,6 +24,7 @@
   margin: 0.2rem 0;
   cursor: pointer;
   border-radius: 15px;
+  color: white;
 }
 .sidebar span {
   margin-left: 1rem;
@@ -45,8 +46,8 @@
   padding: 0.6rem 1rem;
   list-style: none;
   width: 90px;
-  transition: transform 0.6s ease-in;
-  /* transform: translateX(0); */
+  transition: transform 0.3s ease-in;
+  transform: translateX(0);
 }
 .open li {
   margin: 0.2rem 0;
@@ -64,7 +65,7 @@
   li {
     justify-content: center;
   }
-  span {
+  .span {
     display: none;
   }
 }

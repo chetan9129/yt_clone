@@ -15,9 +15,16 @@
   height: 10vh;
   width: 100%;
 }
-.header__menu {
+.header__menu_div {
+  padding: 4px;
+
   display: none;
+  justify-content: center;
+  align-items: center;
 }
+/* .header__menu {
+  display: none;
+} */
 .header__logo {
   /* width: 30px;
   height: 30px; */
@@ -71,12 +78,12 @@ input:focus {
   object-fit: contain;
   margin-left: 5px;
 }
-.header__menu:hover {
+.header__menu_div:hover {
   border-radius: 50%;
   scale: 0.8;
   cursor: pointer;
   scale: 1;
-  background-color: grey;
+  background-color: #3c3c3c;
 }
 @media (max-width: 520px) {
   .header {
@@ -85,7 +92,7 @@ input:focus {
   form {
     flex: 1;
   }
-  .header__menu {
+  .header__menu_div {
     display: block;
   }
   .header__logo {
