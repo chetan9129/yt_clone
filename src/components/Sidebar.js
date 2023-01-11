@@ -13,7 +13,7 @@ import "../css/sidebar.css";
 const Sidebar = ({ sidebar }) => {
   return (
     <nav
-      className={sidebar ? "open" : "sidebar"}
+      className={sidebar ? " open" : "sidebar"}
       // onClick={() => handleToggleSidebar(false)}
     >
       <li>
