@@ -13,7 +13,7 @@ const HomeScreen = () => {
       <CategoriesBar />
       <Row>
         {keys.map((key) => (
-          <Col className="border border-info" lg={3} md={4} key={key}>
+          <Col className="" lg={3} md={4} key={key}>
             <Video />
           </Col>
         ))}

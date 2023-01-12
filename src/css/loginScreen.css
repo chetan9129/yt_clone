@@ -1,0 +1,38 @@
+:root {
+  --textColor: #b1bdb4;
+  --blackPrimary: #121417;
+  --borderColor: #4c4c4c;
+  --breakPointMedium: 1224px;
+  --breakPointSmal: 520px;
+}
+.login {
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+.login__container {
+  background-color: var(--blackPrimary);
+  padding: 2rem;
+  margin: 0 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login button {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.login button:focus {
+  outline: none;
+}
+.login img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+}
+.login p {
+  color: var(--textColor);
+}
