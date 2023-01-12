@@ -7,7 +7,7 @@ import { RxAvatar } from "react-icons/rx";
 
 const Header = ({ handleToggleSidebar }) => {
   return (
-    <div className="border border-dark header">
+    <div className=" header">
       <div className="header__menu_div">
         <FaBars
           className="header__menu"

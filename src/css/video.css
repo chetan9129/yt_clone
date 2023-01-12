@@ -1,0 +1,29 @@
+:root {
+  --textColor: #b1bdb4;
+  --blackPrimary: #121417;
+  --borderColor: #4c4c4c;
+  --breakPointMedium: 1224px;
+  --breakPointSmal: 520px;
+}
+
+.video {
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.video__top {
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+.video__top img {
+  width: 100%;
+}
+.video__top span {
+  position: absolute;
+  bottom: 0.3rem;
+  right: 0.2rem;
+  background: #080808ec;
+  border-radius: 3px;
+}
